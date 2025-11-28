@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relevance of Projects in VIT Pune</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background: #f8f9fa;
+            min-height: 100vh;
+            padding: 30px 0;
+        }
+        
+        .main-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        
+        .header-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header-section h1 {
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .nav-pills .nav-link {
+            border-radius: 10px;
+            margin: 5px;
+            font-weight: 600;
+            color: #667eea;
+            border: 2px solid #667eea;
+            background: white;
+        }
+        
+        .nav-pills .nav-link.active {
+            background: #667eea;
+            border-color: #667eea;
+        }
+        
+        .tab-content {
+            margin-top: 30px;
+        }
+        
+        .tab-pane {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        
+        .tab-pane h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="header-section">
+                <h1>🎓 Relevance of Projects in VIT Pune</h1>
+                <p class="lead text-muted">Exploring SDP, EDI, Design Thinking, and Course Projects</p>
+            </div>
+
+            <!-- Bootstrap Nav Pills -->
+            <ul class="nav-pills nav justify-content-center" id="projectTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="sdp-tab" data-bs-toggle="pill" 
+                            data-bs-target="#sdp" type="button" role="tab">
+                        SDP
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="edi-tab" data-bs-toggle="pill" 
+                            data-bs-target="#edi" type="button" role="tab">
+                        EDI
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="dt-tab" data-bs-toggle="pill" 
+                            data-bs-target="#dt" type="button" role="tab">
+                        Design Thinking
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cp-tab" data-bs-toggle="pill" 
+                            data-bs-target="#cp" type="button" role="tab">
+                        Course Projects
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="projectTabsContent">
+                <div class="tab-pane fade show active" id="sdp" role="tabpanel">
+                    <h3>📚 Software Development Project (SDP)</h3>
+                    <p>SDP bridges theoretical knowledge and real-world application through hands-on software development experience.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Industry Skills:</strong> Learn modern tools, frameworks, and methodologies</li>
+                        <li class="list-group-item"><strong>Team Collaboration:</strong> Enhance teamwork and project management</li>
+                        <li class="list-group-item"><strong>Problem Solving:</strong> Develop critical thinking and debugging skills</li>
+                        <li class="list-group-item"><strong>Portfolio Building:</strong> Create projects for job applications</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-pane fade" id="edi" role="tabpanel">
+                    <h3>💡 Engineering Design & Innovation (EDI)</h3>
+                    <p>EDI fosters creativity and innovation by applying engineering principles to design solutions for real-world challenges.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Innovation:</strong> Develop creative approaches to engineering problems</li>
+                        <li class="list-group-item"><strong>Design Process:</strong> Learn systematic design from concept to prototype</li>
+                        <li class="list-group-item"><strong>Hands-on Experience:</strong> Build and test engineering designs</li>
+                        <li class="list-group-item"><strong>Integration:</strong> Apply multi-domain engineering knowledge</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-pane fade" id="dt" role="tabpanel">
+                    <h3>🎨 Design Thinking (DT)</h3>
+                    <p>Design Thinking is a human-centered approach to innovation emphasizing empathy, creativity, and iterative problem-solving.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>User Focus:</strong> Understand user needs and pain points</li>
+                        <li class="list-group-item"><strong>Creative Solutions:</strong> Encourage out-of-the-box thinking</li>
+                        <li class="list-group-item"><strong>Prototyping:</strong> Learn rapid prototyping and iteration</li>
+                        <li class="list-group-item"><strong>Real Impact:</strong> Solve actual societal problems</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-pane fade" id="cp" role="tabpanel">
+                    <h3>🔬 Course Projects</h3>
+                    <p>Course Projects reinforce theoretical concepts through practical implementation across various subjects.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Concept Reinforcement:</strong> Solidify theoretical knowledge</li>
+                        <li class="list-group-item"><strong>Skill Development:</strong> Build technical proficiency</li>
+                        <li class="list-group-item"><strong>Research Opportunities:</strong> Explore cutting-edge topics</li>
+                        <li class="list-group-item"><strong>Academic Excellence:</strong> Improve overall performance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- Custom jQuery Script -->
+    <script>
+        $(document).ready(function() {
+            console.log('🎉 VIT Projects Website Loaded with jQuery!');
+            
+            // Tab click event with jQuery
+            $('.nav-link').on('click', function() {
+                const tabName = $(this).text().trim();
+                console.log(`Tab clicked: ${tabName}`);
+            });
+            
+            // Hover effects with jQuery
+            $('.nav-link').hover(
+                function() {
+                    $(this).css('transform', 'translateY(-2px)');
+                },
+                function() {
+                    if (!$(this).hasClass('active')) {
+                        $(this).css('transform', 'translateY(0)');
+                    }
+                }
+            );
+            
+            // Tab shown event
+            $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function(e) {
+                const activeTab = $(e.target).text().trim();
+                console.log(`Active tab: ${activeTab}`);
+                // Animate tab content
+                $($(e.target).data('bs-target')).hide().fadeIn(300);
+            });
+        });
+    </script>
+</body>
+</html>
+
+
